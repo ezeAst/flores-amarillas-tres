@@ -18,6 +18,8 @@ body {
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 700;
 }
 
 #lyrics {
@@ -41,14 +43,15 @@ body {
 }
 .titulo {
   margin-bottom: 180px;
-  font-family: "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+  font-family: "Great Vibes", cursive;
+  color: #a4a7a2;
   position: absolute;
   font-weight: bold;
   letter-spacing: 10px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+    z-index: 9999;
 }
 @keyframes fadeIn {
   from {
@@ -1498,7 +1501,7 @@ body {
 }
 @keyframes moving-flower-3 {
   0%,
-  100% {
+   100% {
     transform: rotate(-18deg);
   }
   50% {
